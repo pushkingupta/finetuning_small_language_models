@@ -1,0 +1,16 @@
+{
+  "auto_mapping": null,
+  "base_model_name_or_path": "google/flan-t5-large",
+  "encoder_hidden_size": 768,
+  "inference_mode": true,
+  "modules_to_save": null,
+  "num_attention_heads": 16,
+  "num_layers": 24,
+  "num_transformer_submodules": 2,
+  "num_virtual_tokens": 20,
+  "peft_type": "PREFIX_TUNING",
+  "prefix_projection": false,
+  "revision": null,
+  "task_type": "SEQ_2_SEQ_LM",
+  "token_dim": 1024
+}

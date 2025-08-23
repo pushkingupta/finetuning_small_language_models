@@ -7,14 +7,15 @@ This project demonstrates how (small) language models can be finetuned using tec
 - QLORA
 - Prefix Finetuning
 
-It also analyzes the impact of increasing data size as well as impact of increasing training parameter size on evaluation metrics
+It also analyzes the impact of increasing training data size as well as impact of increasing training parameters on evaluation metrics
 
 The task being undertaken here is Text to SQL generation
 
 ### Running Notebooks
 1. **Instantiating virtual environment**:
 Virtual env contains the dependent libraries that are required to run the project. As it can be pretty large in size, it has not been packaged with the project and should be instantiated before the notebooks are run. 
-The notebooks have been developed using Python 3.11 so it is recommended to have same or compatible version 
+
+    The notebooks have been developed using Python 3.11 so it is recommended to have same or compatible version 
 
 To create the virtual env run: 
 ```python
@@ -42,8 +43,8 @@ They follow following overall structure:
 **NOTE**: 
 
  - Finetuning has been commented out. To finetune the model make sure to uncomment it
- - Device type has been set as per Mac's Silicon chip. If you are training on CUDA please update device setting accordingly
- - If you only need to peform inferencing, that has been tested to run on CPU as well (although it may be slower than running on a GPU)
+ - Device type has been set as per Mac's Silicon chip. If you are training on CUDA device, please update device setting accordingly
+ - If you only need to peform inferencing, it has been tested to run on CPU as well (although it may be slower than running on a GPU)
 
 **About the notebooks**:
 

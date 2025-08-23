@@ -57,6 +57,8 @@ They follow following overall structure:
   `finetuning_FlanT5Large_SQL_PrefixTuning.ipynb` - This notebook performs finetunes Flan T5 Large model using Perfix tuning technique on training size of 20000 records. Prefix finetuning technique peformed poorly for Text 2 SQL Generation task
 
    `finetuning_FlanT5Large_SQL_FullFT.ipynb` - This notebook performs full finetuning on Flan T5 Large model on training size of 1000 records only. Any higher number of training size was resulting in OOM error on the setup being used. With fulltuning on such a small dataset, the model peformed poorly for Text 2 SQl Generation task
+   
+   **NOTE**: Full tuning configs for the model have not been bundled due to size limitations. Please train the model first before running evaluation. 
 
    `finetuning_FlanT5Large_SQL_LORA_largeDS.ipynb` - This notebook performs finetunes Flan T5 Large model using LORA technique on an increased training size of 60000 records. However increasing training size by 3 times yielded only slight improvement in evaluation scores
 
